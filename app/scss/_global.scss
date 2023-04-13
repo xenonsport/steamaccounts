@@ -1,0 +1,29 @@
+body, html{
+  background-color: $bgcolor;
+  height: 100%;
+  color: $text;
+  @extend %rubik-400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a{
+  color: $text;
+}
